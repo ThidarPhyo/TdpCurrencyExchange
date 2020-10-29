@@ -13,6 +13,10 @@
 		523AA9AE25446F3B002640DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523AA9AD25446F3B002640DC /* Assets.xcassets */; };
 		523AA9B125446F3B002640DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523AA9B025446F3B002640DC /* Preview Assets.xcassets */; };
 		523AA9B425446F3B002640DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523AA9B225446F3B002640DC /* LaunchScreen.storyboard */; };
+		523AA9CD25498EA2002640DC /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AA9CC25498EA2002640DC /* HomeTab.swift */; };
+		523AA9D025498EFF002640DC /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AA9CF25498EFF002640DC /* Conversion.swift */; };
+		523AA9D325498F5D002640DC /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AA9D225498F5D002640DC /* Currency.swift */; };
+		523AA9D625498FFA002640DC /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523AA9D525498FFA002640DC /* FetchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		523AA9B025446F3B002640DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		523AA9B325446F3B002640DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		523AA9B525446F3B002640DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523AA9CC25498EA2002640DC /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTab.swift; sourceTree = "<group>"; };
+		523AA9CF25498EFF002640DC /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
+		523AA9D225498F5D002640DC /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		523AA9D525498FFA002640DC /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,9 @@
 		523AA9A625446F3A002640DC /* TdpTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				523AA9BD25498D03002640DC /* ViewModel */,
+				523AA9BC25498CF5002640DC /* Model */,
+				523AA9BE25498D24002640DC /* View */,
 				523AA9A725446F3A002640DC /* AppDelegate.swift */,
 				523AA9A925446F3A002640DC /* SceneDelegate.swift */,
 				523AA9AB25446F3A002640DC /* ContentView.swift */,
@@ -73,6 +84,31 @@
 				523AA9B025446F3B002640DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		523AA9BC25498CF5002640DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				523AA9CF25498EFF002640DC /* Conversion.swift */,
+				523AA9D225498F5D002640DC /* Currency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		523AA9BD25498D03002640DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				523AA9D525498FFA002640DC /* FetchData.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		523AA9BE25498D24002640DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				523AA9CC25498EA2002640DC /* HomeTab.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523AA9D325498F5D002640DC /* Currency.swift in Sources */,
+				523AA9D625498FFA002640DC /* FetchData.swift in Sources */,
+				523AA9CD25498EA2002640DC /* HomeTab.swift in Sources */,
+				523AA9D025498EFF002640DC /* Conversion.swift in Sources */,
 				523AA9A825446F3A002640DC /* AppDelegate.swift in Sources */,
 				523AA9AA25446F3A002640DC /* SceneDelegate.swift in Sources */,
 				523AA9AC25446F3A002640DC /* ContentView.swift in Sources */,
